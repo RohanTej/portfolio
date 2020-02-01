@@ -80,17 +80,18 @@ html {
     background-color: rgba(22, 22, 22, 0);
 }
 
-.arrow-down:hover {
-    margin-top: 20px;
-    transition: margin-top .3s ease-in-out;
+@media (hover) {
+    .arrow-down:hover {
+        margin-top: 20px;
+        transition: margin-top .3s ease-in-out;
+    }
 }
 
 .arrow-down:active {
     width: 3rem;
     border-radius: 20px;
-    margin-top: 25px;
     background-color: rgba(22, 22, 22, 0.7);
-    transition: background-color .2s, margin-top .1 ease-in-out;
+    transition: background-color .1s ease-in-out;
 }
 
 .background {
@@ -159,4 +160,8 @@ html {
 
 .about-info {
     text-align: center;
+}
+
+.about-info .heading {
+    color: rgb(49, 49, 49);
 }
