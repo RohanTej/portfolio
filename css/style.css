@@ -136,12 +136,23 @@ html {
 
 /* Landing Page */
 
-.dark-bg {
+/* .dark-bg {
     background-color: rgb(22, 22, 22, 1);
     width: 100%;
     height: 470px;
-    position: absolute;
     top: 100vh;
+    position: absolute;
+} */
+
+.dark-bg {
+    background-color: rgb(22, 22, 22);
+}
+
+.dark-bg-child {
+    background: linear-gradient(to top, rgb(22, 22, 22), rgb(22, 22, 22));
+    background-size: 100% 100px;
+    background-position: left top;
+    background-repeat: no-repeat;
 }
 
 .about-welcome {
