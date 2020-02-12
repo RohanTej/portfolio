@@ -153,6 +153,15 @@ html {
     top: -4px;
 }
 
+.dark-bg-child .card-body .text {
+    padding: 20px 0;
+}
+
+.dark-bg-child .card-footer {
+    border: none;
+    background-color: inherit;
+}
+
 .about-welcome {
     color: #fff;
     text-align: center;
@@ -176,3 +185,53 @@ html {
 }
 
 /* About me */
+
+/* Projects */
+.projects h2 {
+    text-align: center;
+}
+
+.project {
+    border-bottom: 1px solid rgb(223, 223, 223);
+    padding: 2rem;
+}
+
+.project > div > img {
+    width: 100%;
+    outline: 1px solid rgb(151, 151, 151);
+    outline-offset: 3px;
+}
+
+.project table {
+    width: 100%;
+}
+
+.project > * > * {
+    margin-top: 17px;
+}
+
+.list-unstyled li {
+    margin-top: 5px;
+}
+
+.list-unstyled li i {
+    color: rgb(0, 131, 255);
+}
+/* Projects */
+
+/* Projects - Page */
+.projects-page {
+    background-color: #eee;
+}
+
+.projects-page .container {
+    background-color: #fff;
+    box-shadow: 0px 0px 50px 50px #ddd;
+    border: 1px dashed #252525;
+}
+
+.projects-page .container .projects {
+    margin: 20px 0;
+}
+
+/* Projects - Page */
