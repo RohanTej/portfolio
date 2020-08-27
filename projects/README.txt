@@ -1,0 +1,1 @@
+note that the "live preview" links on the default page are dead links as they are to be setup in production.
